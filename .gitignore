@@ -1,5 +1,6 @@
 /venv
 /mocks
 /.idea
+/__pycache__
 test.py
 sketch.py
