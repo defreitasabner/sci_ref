@@ -1,7 +1,7 @@
 from abc import ABCMeta, abstractmethod
 
 
-class AbstractFileManager(metaclass=ABCMeta):
+class FileManager(metaclass=ABCMeta):
 
     @abstractmethod
     def __create_file(self) -> None:

@@ -1,5 +1,3 @@
-/venv
-/mocks
 /.idea
 /__pycache__
-sketch.py
+/venv

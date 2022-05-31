@@ -1,6 +1,6 @@
-from DocxReader import DocxReader
-from ReferenceSearcher import ReferenceSearcher
-from DataTreater import DataTreater
+from src import DocxReader
+from src.ReferenceSearcher import ReferenceSearcher
+from src.DataTreater import DataTreater
 
 file_path = './mocks/neotropical_caliscelids_review.docx'
 

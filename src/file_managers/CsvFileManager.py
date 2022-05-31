@@ -1,10 +1,10 @@
 import csv
 from typing import Dict
 
-from AbstractFileManager import AbstractFileManager
+from FileManager import FileManager
 
 
-class CsvFileManager(AbstractFileManager):
+class CsvFileManager(FileManager):
 
     def __init__(self, input_path: str) -> None:
         self.__input_path: str = input_path
